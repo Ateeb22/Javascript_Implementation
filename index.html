@@ -283,17 +283,12 @@
 
     <p id="pahl"></p>
     <script>
-            var fruits = ["apple","banana","Mango"]
+            var fruits = ["apple","banana","Mango"]              // unshift
             fruits.unshift("lemon")
             document.getElementById("pahl").innerHTML = fruits
             
     </script>
 
-    <script>
-          //  var arr = ["10","20","30","40"]
-          //  document.write(arr)
-
-    </script>
 
     <script>
            var hop =[["Ziauddin","JDC",20,"Chippa"],
@@ -314,8 +309,8 @@
     <h2 id="row">result : </h2>
     <script>
             var row = ["ali",20,"bachelor","BSCS"]
-            document.getElementById("row").innerHTML = row
-            row[0] = "raju"
+            document.getElementById("row").innerHTML = row         // delete 
+            row[0] = "raju"                                        // index modify
             document.getElementById("row").innerHTML = row
             delete row[1]
             document.write(row)
@@ -323,11 +318,34 @@
     </script>
 
     <script>
-            var num = ["Karachi","Asifabad","Lahore","Faislabad"]
+            var num = ["Karachi","Asifabad","Lahore","Faislabad"]    // sort
             document.write(num + "<br>")
             num.sort();
             document.write(num)
+            document.write("<br><br>")
             
+    </script>
+
+    <script>
+           var toy = ["racer","speed"]                         // push and pop
+           document.write(toy+ "<br>")
+           toy.push("Sky")
+           document.write(toy+ "<br>")
+           toy.pop()
+           document.write(toy + "<br><br>")
+            
+    </script>
+    
+    <script>
+       
+           const spee = ["Lemon","Cake","Biscuit","Ice-cream"]  // splice and slice
+           document.write(spee+"<br>")
+           var c = spee.splice(2,0,"raju")
+           document.write(spee+"<br>")
+           var d = spee.slice(2)
+           document.write(d)
+
+
     </script>
 
            
