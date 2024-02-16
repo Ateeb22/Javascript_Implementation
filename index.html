@@ -320,7 +320,8 @@
 
     <script>
             var num = ["Karachi","Asifabad","Lahore","Faislabad"]    // sort
-            document.write(num + "<br>")
+            document.write(Array.isArray(num) + "<br>")
+            document.write(num.indexOf("Lahore",1) + "<br>")
             num.sort();
             document.write(num)
             document.write("<br><br>")
