@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Javascript</title>
     <link rel="stylesheet" href="style.css" />
+    
     <script>
       var first;
       first = "Sheikh<br>";
@@ -20,33 +21,33 @@
       //   console.warn("Something went wrong");
       //   console.timeEnd("Test");
 
-      var a = 2;
-      var b = 3;
-      var c = (a += b);
-      document.write(c);
-      document.write("<br>");
-      c--;
-      document.write(c);
+      // var a = 2;
+      // var b = 3;
+      // var c = (a += b);
+      // document.write(c);
+      // document.write("<br>");
+      // c--;
+      // document.write(c);
 
-      document.write(firstname);
-      document.write("<br>");
-      document.write(first);
-      document.write(secondname);
-      document.write(typeof x);
+      // document.write(firstname);
+      // document.write("<br>");
+      // document.write(first);
+      // document.write(secondname);
+      // document.write(typeof x);
 
       //   var a = 30
       //   var b = "30"
       //   console.log(null === undefined)
       //   document.write("<br>")
 
-      var a = 6;
-      var b = 6;
-      if (a === b) {
-        document.write("A is greater");
-      }
+      // var a = 6;
+      // var b = 6;
+      // if (a === b) {
+      //   document.write("A is greater");
+      // }
 
-      var age = 30;
-      console.log(!(age > 55));
+      // var age = 30;
+      // console.log(!(age > 55));
 
       //   else{
       //     console.log("Not Eligible");
@@ -266,43 +267,43 @@
 
     </script>
        
-      <button onclick="push()">CLICK </button>
-      <h2 id="deal"></h2>
+      <!-- <button onclick="push()">CLICK </button>
+      <h2 id="deal"></h2> -->
 
     <script>
-            var car = ["city","honda","audi"];
-            document.getElementById("deal").innerHTML = car
+            // var car = ["city","honda","audi"];
+            // document.getElementById("deal").innerHTML = car
            
-            function push()
-            {
-              car.push("BMW")
-              document.getElementById("deal").innerHTML = car
-            }
+            // function push()
+            // {
+            //   car.push("BMW")
+            //   document.getElementById("deal").innerHTML = car
+            // }
 
     </script>
 
     <p id="pahl"></p>
     <script>
-            var fruits = ["apple","banana","Mango"]              // unshift
-            fruits.unshift("lemon")
-            document.getElementById("pahl").innerHTML = fruits
+            // var fruits = ["apple","banana","Mango"]              // unshift
+            // fruits.unshift("lemon")
+            // document.getElementById("pahl").innerHTML = fruits
             
     </script>
 
 
     <script>
-           var hop =[["Ziauddin","JDC",20,"Chippa"],
-                     ["Liaquat","JDC",30,"Ambulance"],
-                     ["Aga khan","JDC",50,"Dark"],
-                     ["National","JDC",40,"Light"]]
+          //  var hop =[["Ziauddin","JDC",20,"Chippa"],
+          //            ["Liaquat","JDC",30,"Ambulance"],
+          //            ["Aga khan","JDC",50,"Dark"],
+          //            ["National","JDC",40,"Light"]]
            
                      
-                     for(a = 0; a < hop.length; a++)
-                     {
-                        document.write(hop[a] + "<br>")
-                        document.write("<br>")
-                     }
-                     document.write("<br>")
+          //            for(a = 0; a < hop.length; a++)
+          //            {
+          //               document.write(hop[a] + "<br>")
+          //               document.write("<br>")
+          //            }
+          //            document.write("<br>")
             
     </script>
 
@@ -312,7 +313,7 @@
             document.getElementById("row").innerHTML = row         // delete 
             row[0] = "raju"                                        // index modify
             document.getElementById("row").innerHTML = row
-            delete row[1]
+            delete row[2]
             document.write(row)
             document.write("<br><br>")
     </script>
@@ -328,9 +329,8 @@
 
     <script>
            var toy = ["racer","speed"]                         // push and pop
-           document.write(toy+ "<br>")
            toy.push("Sky")
-           document.write(toy+ "<br>")
+           document.write(toy + "<br>")
            toy.pop()
            document.write(toy + "<br><br>")
             
@@ -338,15 +338,13 @@
     
     <script>
        
-           const spee = ["Lemon","Cake","Biscuit","Ice-cream"]  // splice and slice
-           document.write(spee+"<br>")
-           var c = spee.splice(2,0,"raju")
-           document.write(spee+"<br>")
-           var d = spee.slice(2)
-           document.write(d)
-
-
-    </script>
+      const spee = ["Lemon","Cake","Biscuit","Ice-cream"]  // splice and slice
+      var c = spee.splice(2,0,"ginnu","julia")
+      document.write(spee+"<br>")
+      var d = spee.slice(1,4)
+      document.write(d)
+      
+</script>
 
            
   </body>
