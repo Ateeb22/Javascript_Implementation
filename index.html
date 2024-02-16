@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Javascript</title>
     <link rel="stylesheet" href="style.css" />
-    
+
     <script>
       var first;
       first = "Sheikh<br>";
@@ -52,7 +52,6 @@
       //   else{
       //     console.log("Not Eligible");
       //   }
-
     </script>
   </head>
   <body>
@@ -140,7 +139,6 @@
       //   document.write("<li>" + a + "<br>")
       // }}
 
-
       // ---------------------------  ASSIGNMENT 01 ---------------------------------
 
       // function calculator()
@@ -165,7 +163,6 @@
       // document.write("output after multiplication " + b + "<br><br>")
     </script>
 
-
     <!--------------------- Real one Assignment 01 ------------------------>
 
     <!-- <label for="x">Enter first number : </label>
@@ -180,8 +177,7 @@
     <button onclick="multiplication()">multiplication</button>
     <p>Sum : <input id="answer" /></p> -->
 
-
-   <!--------------------- Real one Assignment 02 ------------------------->
+    <!--------------------- Real one Assignment 02 ------------------------->
 
     <label for="x">Enter first number : </label>
     <input type="text" id="x" required />
@@ -193,11 +189,11 @@
     <button onclick="performOperation('subtract')">Subtract</button>
     <button onclick="performOperation('divide')">Division</button>
     <button onclick="performOperation('multiply')">Multiplication</button>
-    <p>Output : <input id="answer" readonly /></p><br><br>
+    <p>Output : <input id="answer" readonly /></p>
+    <br /><br />
 
-    
-
-    <script>  // ASSIGNMENT 01
+    <script>
+      // ASSIGNMENT 01
 
       // function add() {
       //   var num1, num2, sum;
@@ -230,11 +226,10 @@
       //   mul = num1 * num2;
       //   document.getElementById("answer").value = mul;
       // }
-
     </script>
 
-
-    <script>      // ASSIGNMENT 02
+    <script>
+      // ASSIGNMENT 02
 
       function working(operation) {
         var num1 = parseInt(document.getElementById("x").value);
@@ -264,89 +259,78 @@
 
         document.getElementById("answer").value = result;
       }
-
     </script>
-       
-      <!-- <button onclick="push()">CLICK </button>
+
+    <!-- <button onclick="push()">CLICK </button>
       <h2 id="deal"></h2> -->
 
     <script>
-            // var car = ["city","honda","audi"];
-            // document.getElementById("deal").innerHTML = car
-           
-            // function push()
-            // {
-            //   car.push("BMW")
-            //   document.getElementById("deal").innerHTML = car
-            // }
+      // var car = ["city","honda","audi"];
+      // document.getElementById("deal").innerHTML = car
 
+      // function push()
+      // {
+      //   car.push("BMW")
+      //   document.getElementById("deal").innerHTML = car
+      // }
     </script>
 
     <p id="pahl"></p>
     <script>
-            // var fruits = ["apple","banana","Mango"]              // unshift
-            // fruits.unshift("lemon")
-            // document.getElementById("pahl").innerHTML = fruits
-            
-    </script>
-
-
-    <script>
-          //  var hop =[["Ziauddin","JDC",20,"Chippa"],
-          //            ["Liaquat","JDC",30,"Ambulance"],
-          //            ["Aga khan","JDC",50,"Dark"],
-          //            ["National","JDC",40,"Light"]]
-           
-                     
-          //            for(a = 0; a < hop.length; a++)
-          //            {
-          //               document.write(hop[a] + "<br>")
-          //               document.write("<br>")
-          //            }
-          //            document.write("<br>")
-            
-    </script>
-
-    <h2 id="row">result : </h2>
-    <script>
-            var row = ["ali",20,"bachelor","BSCS"]
-            document.getElementById("row").innerHTML = row         // delete 
-            row[0] = "raju"                                        // index modify
-            document.getElementById("row").innerHTML = row
-            delete row[2]
-            document.write(row)
-            document.write("<br><br>")
+      // var fruits = ["apple","banana","Mango"]              // unshift
+      // fruits.unshift("lemon")
+      // document.getElementById("pahl").innerHTML = fruits
     </script>
 
     <script>
-            var num = ["Karachi","Asifabad","Lahore","Faislabad"]    // sort
-            document.write(Array.isArray(num) + "<br>")
-            document.write(num.indexOf("Lahore",1) + "<br>")
-            num.sort();
-            document.write(num)
-            document.write("<br><br>")
-            
+      //  var hop =[["Ziauddin","JDC",20,"Chippa"],
+      //            ["Liaquat","JDC",30,"Ambulance"],
+      //            ["Aga khan","JDC",50,"Dark"],
+      //            ["National","JDC",40,"Light"]]
+
+      //            for(a = 0; a < hop.length; a++)
+      //            {
+      //               document.write(hop[a] + "<br>")
+      //               document.write("<br>")
+      //            }
+      //            document.write("<br>")
+    </script>
+
+    <h2 id="row">result :</h2>
+    <script>
+      var row = ["ali", 20, "bachelor", "BSCS"];
+      document.getElementById("row").innerHTML = row; // delete
+      row[0] = "raju"; // index modify
+      document.getElementById("row").innerHTML = row;
+      delete row[2];
+      document.write(row);
+      document.write("<br><br>");
     </script>
 
     <script>
-           var toy = ["racer","speed"]                         // push and pop
-           toy.push("Sky")
-           document.write(toy + "<br>")
-           toy.pop()
-           document.write(toy + "<br><br>")
-            
+      var num = ["Karachi", "Asifabad", "Lahore", "Faislabad"]; // sort
+      document.write(Array.isArray(num) + "<br>");
+      document.write(num.indexOf("Lahore", 1) + "<br>");
+      num.sort();
+      document.write(num);
+      document.write("<br><br>");
+    </script>
+
+    <script>
+      var toy = ["racer", "speed"]; // push and pop
+      toy.push("Sky");
+      document.write(toy + "<br>");
+      toy.pop();
+      document.write(toy + "<br><br>");
+    </script>
+
+    <script>
+      const spee = ["Lemon", "Cake", "Biscuit", "Ice-cream"]; // splice and slice
+      var c = spee.splice(2, 0, "ginnu", "julia");
+      document.write(spee + "<br>");
+      var d = spee.slice(1, 4);
+      document.write(d);
     </script>
     
-    <script>
-       
-      const spee = ["Lemon","Cake","Biscuit","Ice-cream"]  // splice and slice
-      var c = spee.splice(2,0,"ginnu","julia")
-      document.write(spee+"<br>")
-      var d = spee.slice(1,4)
-      document.write(d)
-      
-</script>
-
-           
   </body>
 </html>
