@@ -309,9 +309,9 @@
 
     <script>
       var num = ["Karachi", "Asifabad", "Lahore", "Faislabad"]; // sort
-      document.write(Array.isArray(num) + "<br>");
-      document.write(num.indexOf("Lahore", 1) + "<br>");
-      num.sort();
+      document.write(Array.isArray(num) + "<br>");              // .is array wheater the array is array or not
+      document.write(num.indexOf("Lahore", 1) + "<br>");        // index of to find the element 
+      num.sort();                                        
       document.write(num);
       document.write("<br><br>");
     </script>
@@ -330,6 +330,20 @@
       document.write(spee + "<br>");
       var d = spee.slice(1, 4);
       document.write(d);
+      document.write("<br><br>")
+    </script>
+
+    <script>                                                  // Object
+      var data = {name : "ali", lastname : "khan" , age : 20, cast : "sheikh", salary : function(){return 25000}}
+      var a = ["Psl", "Ipl", "BPL"]
+   
+      console.log(data)
+      document.write(25000 + "<br>")
+      document.write(a[0] + "<br>")
+      document.write(data.name,data.lastname)
+      
+
+
     </script>
     
   </body>
