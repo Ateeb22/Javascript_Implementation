@@ -341,8 +341,36 @@
       document.write(25000 + "<br>")
       document.write(a[0] + "<br>")
       document.write(data.name,data.lastname)
-      
+      document.write("<br>")
+    </script>
 
+    <script>                                                 // to make object
+      var person = new Object();
+
+      person.firstname = "Ali"
+      person.lastname = "Sheikh"
+      console.log(person)
+      document.write(person.firstname)
+      document.write("<br><br>")
+
+    </script>
+
+    <script>                                                          // Array in Object
+      var student = [{name : "Hanzala", Age : 23, Cast : "Rajpoot"},
+      {name : "Usman", Age : 25, Cast : "Sheikh"}  ]
+       console.log(student)
+      document.write(student.name)
+      document.write("<br>")
+    </script>
+
+    <script>
+      var information = {name : " Kalia ",age : 30 ,cast : " sheikh "}
+                      
+      for(var data in information)
+      {
+        document.write(data + " : " + information[data] + "<br>")
+      }
+      
 
     </script>
     
