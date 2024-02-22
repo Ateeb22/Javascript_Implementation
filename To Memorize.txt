@@ -1,0 +1,22 @@
+-datatypes
+-map
+-filter
+-loops
+-reduce
+-scopes
+-promises
+-variables
+-callbacks
+-asynchronous
+-statements
+-async-awaited
+-conditional
+-DE structuring
+-string methods
+-arrow function
+-lexical scope
+-array functions
+-normal function
+-spread operators
+-function expression
+-event loop

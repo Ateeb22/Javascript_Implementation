@@ -1,0 +1,3 @@
+TASK
+- want to make card or print the api fetch the data from api and print it.
+https://jsonplaceholder.typicode.com/

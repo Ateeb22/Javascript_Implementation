@@ -1,0 +1,86 @@
+------------Javascript concepts-----------
+
+"Document.write" is used for to write the html content directly in a web page.
+we can use javascript anywhere on html by using script tag.
+we can add html tag inside javascript.
+SLC = // , MLC = /* --- */
+3 types of variable 
+Var, Let and Const.
+The difference between Var and Let is in Let we cannot declare the same thing another time.
+We cannot reasign the value in constant.
+
+There are some of the data types;
+"hello" ----- string
+25 ---- number 
+true ---- boolean 
+["html","css"] ------ array
+{first:"Jane"} ----- object
+null ----- Null
+var x; ------ undefined
+
+Console.log or console.table or error or warn is used for showing the output in console.For checking error and testing.
+
+Global variable can work inside function and also in outside the function.
+Local variable cannot work outside the function. 
+
+To access the HTML element javascript can use the "document.getElementById(id)" method.
+InnerHtml property defines the HTML content.
+
+
+
+-------------------Javascript has 8 data types.------------------
+ 
+String  = It is a series of character like "John_Die", it can written with single or double quote.
+Number  = Number can be written with or without decimal.
+BigInt  = It is a new datatype that is used to store big integer values. it cannot have decimals.
+Boolean  = Boolean can have two datatype : True / False.
+Undefined = A variable without a value has a value Undefined.
+Null = Represent the intentional absence of any object value.
+Symbol = Represent a unique identifier.
+
+---------------------Object Datatype-------------------
+
+Object = Represent a collection of key value pair.
+Array = Represent an ordered list if values.
+Date = Represent a specific moment in time.
+Function = Represent a reusable set of statement.
+RegExp = Represent a regular Expression.
+
+--------------------Events-------------------
+
+Here are some examples of HTML events:
+
+An HTML web page has finished loading
+An HTML input field was changed
+An HTML button was clicked
+
+-------------------Array-------------------
+
+.tostring() = methods return an whole array with elements in it. / .ValueOf() = same as .tostring().
+.at() = method return an indexed element from an array.
+join() = methods join array element into string.
+.shift() = removes the first element from an array and shift the other element to left.
+.unshift() = add the new element to the begining of an array.
+.sort() = sort an array alphabetically.
+.reverse() = reverse the element in an array.
+.splice() = methods add new item to an array. and it can also be used to remove elements. The 1 paramter define where the new element should be added. / 2 paramter = how many elements should be remove.
+.slice() = method slice out an piece of an array. ( it is just work like a range )
+.indexOf() = method if you want to find the Array element / or index number of it.
+.include() = is just like the method of indexOf it can find numeric or string values both. 
+.fill() = can be used to fill the all values inside array.
+.Object.values() = convert an Object to an array.
+.JSON.stringify() = converted to a string with the JavaScript function JSON.stringify().
+
+--------------------------Objects--------------------------
+
+const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+1 point = firstname, lastname, age, eyeColor = properties.
+2 point = You can make array in Objects.
+3 point = WE can make multiple functions which is also called methods.
+
+-------------------Asynchronous and Synchronous-------------------
+
+An asynchronous operation is a task or process that operates independently of the main program flow, without blocking the execution of the main program.
+In a synchronous program, tasks are executed sequentially, one after the other. 
+
+The Promise API is a feature introduced in JavaScript to handle asynchronous operations in a more structured and manageable way. A Promise is an object that represents the eventual completion or failure of an asynchronous operation and its resulting value.
