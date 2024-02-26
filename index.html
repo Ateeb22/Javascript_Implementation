@@ -307,16 +307,16 @@
       document.write("<br><br>");
     </script>
 
-    <script>
+    <!-- <script>
       var num = ["Karachi", "Asifabad", "Lahore", "Faislabad"]; // sort
       document.write(Array.isArray(num) + "<br>");              // .is array wheater the array is array or not
       document.write(num.indexOf("Lahore", 1) + "<br>");        // index of to find the element 
       num.sort();                                        
       document.write(num);
       document.write("<br><br>");
-    </script>
+    </script> -->
 
-    <script>
+    <!-- <script>
       var toy = ["racer", "speed"]; // push and pop
       toy.push("Sky");
       document.write(toy + "<br>");
@@ -331,7 +331,7 @@
       var d = spee.slice(1, 4);
       document.write(d);
       document.write("<br><br>")
-    </script>
+    </script> -->
 
     <script>                                                  // Object
       var data = {name : "ali", lastname : "khan" , age : 20, cast : "sheikh", salary : function(){return 25000}}
@@ -371,9 +371,20 @@
       {
         document.write(data + " : " + information[data] + "<br>")
       }
-      
         
     </script>
     
+    <p id="map"></p>
+
+    <script>
+        const fruits = new Map([["apples",300],
+                             ["banana",600],
+                             ["chicoo",800]])
+
+        document.getElementById("map").innerHTML = fruits.get("apples")                     
+    </script>
+
+
+
   </body>
 </html>
