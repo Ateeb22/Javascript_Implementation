@@ -381,9 +381,48 @@
                              ["banana",600],
                              ["chicoo",800]])
 
+        // fruits.set("apples",900)                     
+
         document.getElementById("map").innerHTML = fruits.get("apples")                     
     </script>
+      
 
+   <p id="mpp">Result : </p>                       
+
+    <script>                                                       // Map
+      var mapp = [2,4,6,11] 
+      // var mapp = [{name : "ali",age : 20, gender : "male"},
+      //             {name : "sohaib", age : 23,gender : "female"}]
+
+      var upp = mapp.map(test)
+      document.write(upp)
+
+      function test(mapp)
+      {
+        return upp = [30,20,40,35]  
+        //  return mapp.name + " " + mapp.gender + mapp.age       
+      } 
+
+      document.getElementById("mpp").innerHTML = mapp
+      document.write("<br><br>")
+    </script>  
+
+    <!-- <script>
+      var a = "Hello world"
+      var b = "World"
+
+      var c = a.charAt(7)
+      document.write(c)
+    </script> -->
+    
+
+    <script>
+        var nn = new Date()
+        document.write(nn.toDateString())
+
+    </script>
+
+    
 
 
   </body>
